@@ -220,12 +220,12 @@ height: 22px;
 
 /*SMALLER DEVICES*/
 
-@media(max-width:900px) {
+@media(max-width:1000px) {
   .rhomb{
     margin: 12vw 0px;
   }
 }
-@media(max-width:800px) {
+@media(max-width:700px) {
   .cover{
     background-color: rgba(0, 0, 0, 0.4);
   }
@@ -251,6 +251,9 @@ height: 22px;
 .main-text{
   font-size: 1.5rem;
 }
+  .rhomb {
+    margin: 20px 0;
+  }
 
 .wrapper{
   margin: 15px;
@@ -294,9 +297,7 @@ height: 22px;
     font-weight: 100;
     line-height: 25px;
   }
-  .rhomb {
-    margin: 20px 0;
-  }
+  
   .small-text{
     font-size: 0.6rem;
     line-height: 1rem;
